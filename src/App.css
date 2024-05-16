@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+body{
+  background: rgb(254, 212, 157);
+  /* background: linear-gradient(to bottom right, #40356c, #a8bc96); */
+}
+.btn-contianer{
+  display: flex;
+  justify-content: space-around;
+}
+.edit-btn{
+  background-color: #457ffc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-left: -15px;
+}
+
+.delete-btn{
+  color:white;
+  background-color: rgb(255, 88, 88);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.add-btn {
+  background-color: #1973c7;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.search-input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.product-table {
+  margin-bottom: 20px;
+}
+
+.product-modal {
+  width: 400px;
+}
+
+.product-form-item {
+  margin-bottom: 10px;
+}
